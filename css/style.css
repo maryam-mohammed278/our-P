@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color.css">
+    <title>project</title>
+</head>
+<body>
+<header>
+    <div class="upper">
+        <img src="images/لوجو.jpg" alt="logo">
+        <h1> 
+            كلية الحاسبات والمعلومات 
+            <span>(كلية معتمدة)</span>
+        </h1>
+        <div class="upper-links">
+            <a href="#">
+                
+            </a>
+            <a href="#">
+                
+            </a>
+            <a href="#">
+                
+            </a>
+        </div>
+    </div>   
+</header>
+  <script src="js/main.js"></script>
+</body>
+</html>
+https://github.com/maryam-mohammed278/our-P
+/* globals */
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+/* start header */
+header .upper {
+  display: flex;
+  justify-content: space-between;
+}
+header .upper img {
+  height: 100px;
+  width: 100px;
+}
+header .upper h1 {
+}
+header .upper h1 span {
+  font-size: 15px;
+}
+header .upper .upper-links {
+  width: 90px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+header .upper .upper-links a {
+  display: block;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+/* end header */
