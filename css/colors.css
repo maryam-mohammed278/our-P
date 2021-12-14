@@ -4,4 +4,26 @@
 #a1a5a6 رصاصي غامق 
 #f2b138 اصفر 
 #003f63 كحلي 
-*
+*/
+
+/* background */
+header .scroll-down{
+    background-color: #d9d9d9;
+}
+header .upper,
+header .scroll-down{
+    background-color: #f2b138;
+}
+/* end background */
+
+/* color */
+header .upper{
+    color: #353d40;
+}
+/* end color */
+
+/* border */
+header .scroll-down{
+    border-color: #f2b138;
+}
+/* end border */
