@@ -11,7 +11,8 @@ header .scroll-down{
     background-color: #d9d9d9;
 }
 header .upper,
-header .scroll-down{
+header .scroll-down ,
+section.welcome .container .left{
     background-color: #f2b138;
 }
 /* end background */
@@ -28,3 +29,4 @@ header .scroll-down{
     border-color: #f2b138;
 }
 /* end border */
+

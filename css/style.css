@@ -103,3 +103,42 @@ header .middle .social-links li a{
   padding: 10px 0;
 }
 /* end header */
+
+/* start section*/
+section.welcome .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+section.welcome .container .right{
+  width: 70%;
+  height: auto;
+ 
+}
+section.welcome .container .left :hover{
+  opacity: 0.5;
+}
+
+section.welcome .container .left{
+  width: 30%;
+  height: auto;
+ text-align: center;
+ 
+ font-size: 13px;
+ padding: 30px;
+}
+section.welcome .container .left i{
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+section.welcome .container .right{
+margin: auto;
+text-align: center;
+margin-left: 30px;
+}
+section.welcome .container .right h3{
+text-align: end;
+    margin: 20px;
+    font-size: 25px;
+  }
