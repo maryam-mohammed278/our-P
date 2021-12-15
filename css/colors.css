@@ -17,7 +17,8 @@ header .scroll-down{
 /* end background */
 
 /* color */
-header .upper{
+header .upper,
+header .middle .social-links li a{
     color: #353d40;
 }
 /* end color */

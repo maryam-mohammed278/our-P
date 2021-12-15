@@ -16,19 +16,22 @@ a {
 header .upper .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header .upper img {
-  height: 70px;
-  width: 70px;
+  height: 40px;
+  width: 40px;
   margin: 10px 0;
   border-radius: 50%;
+}
+header .upper h1 {
+  margin: 0;
 }
 header .upper h1 span {
   font-size: 15px;
 }
 header .upper .upper-links {
   width: 90px;
-  padding-top: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -40,16 +43,15 @@ header .upper .upper-links a {
   width: 25px;
   height: 25px;
 }
-header .lower {
+header .middle {
   display: flex;
   justify-content: space-between;
 }
-header .lower .header-content {
+header .middle .header-content {
   width: calc(100% - 50px);
-  height: calc(100vh - 90px);
-  background-color: #00f;
+  height: calc(100vh - 60px);
 }
-header .lower .header-content .banner {
+header .middle .header-content .banner {
   background-image: url("../images/computer-bg-light.jpg");
   height: 100%;
   background-repeat: no-repeat;
@@ -59,16 +61,16 @@ header .lower .header-content .banner {
   align-items: center;
   position: relative;
 }
-header .lower .header-content .banner h2 {
+header .middle .header-content .banner h2 {
   width: 50%;
   text-align: center;
   font-size: 72px;
 }
-header .lower .header-content .banner h2 span {
+header .middle .header-content .banner h2 span {
   display: block;
   font-size: 16px;
 }
-header .lower .header-content .banner .scroll-down {
+header .middle .header-content .banner .scroll-down {
   width: 30px;
   height: 30px;
   background-image: url("../images/scrollDown.png");
@@ -78,11 +80,12 @@ header .lower .header-content .banner .scroll-down {
   border-radius: 5px;
   position: absolute;
   bottom: 30px;
+  cursor: pointer;
 }
-header .lower .header-content .banner .scroll-down:hover {
+header .middle .header-content .banner .scroll-down:hover {
   opacity: 0.8;
 }
-header .lower .social-links {
+header .middle .social-links {
   width: 50px;
   height: auto;
   margin: 0;
@@ -90,7 +93,13 @@ header .lower .social-links {
   list-style: none;
   text-align: center;
 }
-header .lower .social-links li {
-  padding: 15px 0;
+header .middle .social-links li {
+  margin: 5px 0;
+
+}
+header .middle .social-links li a{
+  display: block;
+  width: 100%;
+  padding: 10px 0;
 }
 /* end header */
