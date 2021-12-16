@@ -11,8 +11,13 @@ header .scroll-down{
     background-color: #d9d9d9;
 }
 header .upper,
-header .scroll-down{
+header .scroll-down,
+header .lower .dropdown-menu,
+header .lower .dropdown-menu li a:hover{
     background-color: #f2b138;
+}
+header .lower .dropdown-menu:hover{
+    background-color: #353d40;
 }
 /* end background */
 
@@ -21,10 +26,16 @@ header .upper,
 header .middle .social-links li a{
     color: #353d40;
 }
+header .lower .dropdown-menu:hover > li a{
+    color: #d9d9d9;
+}
 /* end color */
 
 /* border */
 header .scroll-down{
     border-color: #f2b138;
+}
+header .lower .dropdown-menu{
+    border-color: #d9d9d9;
 }
 /* end border */

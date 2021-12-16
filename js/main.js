@@ -7,3 +7,14 @@ scrollDown.onclick = function () {
         behavior: "smooth"
     })
 }
+
+// toggle dropdown menu
+let dropdownButton =  document.querySelectorAll(".dropdown .dropdown-button");
+let dropdownMenu =  document.querySelectorAll(".dropdown .dropdown-menu");
+
+for(let i = 0; i < dropdownButton.length; i++){
+    dropdownButton[i].onclick = function (e) {
+        e.preventDefault();
+        this.parentElement.querySelector(".dropdown-menu").classList.toggle("active");
+    }
+}
