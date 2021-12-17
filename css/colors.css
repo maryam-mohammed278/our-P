@@ -11,10 +11,19 @@ header .scroll-down{
     background-color: #d9d9d9;
 }
 header .upper,
+<<<<<<< HEAD
 header .scroll-down,
 header .lower .dropdown-menu,
+<<<<<<< HEAD
 header .lower .dropdown-menu li a:hover,
 header nav.lower{
+=======
+header .lower .dropdown-menu li a:hover{
+=======
+header .scroll-down ,
+section.welcome .container .left{
+>>>>>>> 0615bd1282a9a1358b8464dfee31bf412152cd9a
+>>>>>>> 8777eb7858a652c3f24a726eab1c12f8bed3bbcb
     background-color: #f2b138;
 }
 header .lower .dropdown-menu:hover{
@@ -36,7 +45,12 @@ header .lower .dropdown-menu:hover > li a{
 header .scroll-down{
     border-color: #f2b138;
 }
+<<<<<<< HEAD
 header .lower .dropdown-menu{
     border-color: #d9d9d9;
 }
 /* end border */
+=======
+/* end border */
+
+>>>>>>> 0615bd1282a9a1358b8464dfee31bf412152cd9a

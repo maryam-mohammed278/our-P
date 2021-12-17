@@ -145,3 +145,197 @@ header .lower .dropdown-menu li a{
   padding: 10px;
 }
 /* end header */
+
+/* start section */
+section.welcome .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+section.welcome .container .right{
+  width: 70%;
+  height: auto;
+ 
+}
+section.welcome .container .left :hover{
+  opacity: 0.5;
+}
+
+section.welcome .container .left{
+  width: 30%;
+  height: auto;
+  text-align: center;
+  font-size: 13px;
+  padding: 30px;
+}
+section.welcome .container .left i{
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+section.welcome .container .right{
+  margin: auto;
+  text-align: center;
+  margin-left: 30px;
+}
+section.welcome .container .right h3{
+  text-align: end;
+  margin: 20px;
+  font-size: 25px;
+}
+/*end section*/
+
+/*start news section*/ 
+.pics
+{
+ 
+  width: 90%;
+  margin: auto;
+  
+}
+.pic 
+{
+
+  width: 33%;
+  height: 35%;
+  float:left;
+  text-align: center;
+  display:block;
+}
+.pic img
+{
+  width: 90%;
+  border-radius: 5%;
+}
+
+
+.clear 
+{
+  clear:both;
+}
+
+/* end news section */
+
+/*start counter1 section*/
+
+
+ .count
+{
+  width: 100%;
+  height: 100%;
+  background-color: linear-gradient(rbba(103,58,183,0.8),rgba(33,150,243,0.5)),;
+  background-position: center;
+  background-size: cover;
+  flex-direction: row;
+}
+ .count .title
+{
+  width: 60%;
+  display: inline-block;
+  margin:50px 300px;
+  text-align: center;
+}
+.counter_item
+{
+  padding: 20px;
+  margin-top: 20px;
+  background: #d9d9d9;
+  box-shadow: inset 1px 2px 4px #aaa ;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  flex-direction:row;
+}
+
+.counter_item:hover
+{
+box-shadow: 1px 2px 8px rgb(46, 44, 44);
+}
+.counter_item i
+{
+font-size: 45px;
+color:#353d40  ; 
+}
+.counter_item p
+{
+font-size: 25px;
+padding: 12px 0px;
+font-weight: 600;
+letter-spacing: 1px;
+color: #353340;
+}
+.counter_item h4
+{
+color: #353340;
+font-weight: 600;
+font-size: 18px;
+text-transform: uppercase;
+}
+
+/* end counter1 section*/
+
+/*start footer section*/
+
+.nav2
+{
+  background-color:#353340 ;
+color:#d9d9d9 ;
+padding: 10px 10px;
+width: auto;
+direction: ltr;
+
+}
+.nav2 img 
+{
+  width: 3%;
+  border-radius: 50%;
+
+
+}
+.nav2 h1
+{
+  color:#f5eeee ;
+  padding: 1%;
+  display: inline;
+}
+.nav2 p
+{
+  margin-left: 60px;
+  line-height:1.5;
+}
+.nav2 p a
+{
+  color:whitesmoke;
+  text-decoration: underline;
+  font-size: bold;
+}
+.nav2 .contact-us p strong
+{
+color: #f5eeee;
+}
+
+.footer
+{
+  
+  background-color: #353340;
+  color:#d9d9d9;
+  padding: 20px 0px;
+  text-align:center;
+  direction: ltr;
+}
+
+.footer ul
+{
+  list-style: none;
+  padding-left: 0%;
+  margin: 10px 0 0 ;
+}
+.footer  ul li
+{
+  display: inline-block;
+
+}
+.footer ul li img
+{
+  width: 24px;
+}
