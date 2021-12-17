@@ -13,7 +13,8 @@ header .scroll-down{
 header .upper,
 header .scroll-down,
 header .lower .dropdown-menu,
-header .lower .dropdown-menu li a:hover{
+header .lower .dropdown-menu li a:hover,
+header nav.lower{
     background-color: #f2b138;
 }
 header .lower .dropdown-menu:hover{
