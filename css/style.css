@@ -108,22 +108,27 @@ header .lower ul.nav{
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
 }
 header .lower ul a{
   font-size: 18px;
 }
 header .lower ul a i{
   font-size: 14px;
+  margin: 0 5px;
 }
 header .lower .dropdown{
   position: relative;
+}
+header .lower .dropdown .dropdown-button,
+header .lower a{
+  display: block;
+  padding: 10px 0;
 }
 header .lower .dropdown-menu{
   padding: 0;
   margin: 0;
   list-style: none;
-  text-align: center;
+  text-align: left;
   border: 1px solid;
   transition: all .2s ease-in-out;
   border-radius: 5px;
@@ -136,7 +141,8 @@ header .lower .dropdown-menu.active{
 }
 header .lower .dropdown-menu li a{
   display: block;
-  padding: 10px 30px;
+  width: 100px;
+  padding: 10px;
 }
 /* end header */
 
