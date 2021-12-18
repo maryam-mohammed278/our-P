@@ -18,13 +18,3 @@ for (let i = 0; i < dropdownButton.length; i++) {
         this.parentElement.querySelector(".dropdown-menu").classList.toggle("active");
     }
 }
-//counter section
-$(function () {
-    $('.counter').counterup(
-        {
-            delay: 20,
-            time: 2000,
-
-        }
-    )
-})
