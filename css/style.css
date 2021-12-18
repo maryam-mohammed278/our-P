@@ -182,23 +182,29 @@ section.welcome .container .right h3{
 /*start news section*/ 
 .pics
 {
- 
-  width: 90%;
+ direction: ltr;
+  width: 70%;
   margin: auto;
   
+}
+.pics h1
+{
+  font-size:bold ;
+  text-align: center;
+  padding: 2% 5%;
 }
 .pic 
 {
 
-  width: 33%;
-  height: 35%;
+  width: 25%;
+  height: 25%;
   float:left;
   text-align: center;
   display:block;
 }
 .pic img
 {
-  width: 90%;
+  width: 80%;
   border-radius: 5%;
 }
 
@@ -265,8 +271,34 @@ font-weight: 600;
 font-size: 18px;
 text-transform: uppercase;
 }
-
+.counter1 .clear
+{
+  clear: both;
+}
 /* end counter1 section*/
+
+/*start Gallery section*/
+.Gallery
+{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.Gallery .photos img
+{
+  width: 20%;
+  padding:25px ;
+  margin: 10px;
+  border-radius: 10%;
+ 
+  float: left;
+}
+.Gallery .clear
+{
+  clear: both;
+}
+
+
 
 /*start footer section*/
 
