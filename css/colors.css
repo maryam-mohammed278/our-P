@@ -14,14 +14,18 @@ header .upper,
 header .scroll-down,
 header .lower .dropdown-menu,
 header .lower .dropdown-menu li a:hover,
-header nav.lower
-header .lower .dropdown-menu li a:hover
-header .scroll-down ,
+header nav.lower,
+header .lower .dropdown-menu li a:hover,
+header .scroll-down,
 section.welcome .container .left{
     background-color: #f2b138;
 }
-header .lower .dropdown-menu:hover{
+header .lower .dropdown-menu:hover,
+header .lower .search{
     background-color: #353d40;
+}
+header .lower .search .search-button{
+    background-color: transparent;
 }
 /* end background */
 
@@ -30,7 +34,8 @@ header .upper,
 header .middle .social-links li a{
     color: #353d40;
 }
-header .lower .dropdown-menu:hover > li a{
+header .lower .dropdown-menu:hover > li a,
+header .lower .search .search-button{
     color: #d9d9d9;
 }
 /* end color */
@@ -39,7 +44,8 @@ header .lower .dropdown-menu:hover > li a{
 header .scroll-down{
     border-color: #f2b138;
 }
-header .lower .dropdown-menu{
+header .lower .dropdown-menu,
+header .lower .search input[type=search]{
     border-color: #d9d9d9;
 }
 /* end border */
