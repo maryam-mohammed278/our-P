@@ -3,7 +3,6 @@ body {
   margin: 0;
   background-color: #d9d9d9;
   color: #353340;
-  height: 4000px;
 }
 a {
   text-decoration: none;
@@ -297,30 +296,26 @@ section.welcome .container .right p{
 /* end counters section */
 
 /*start Gallery section*/
-.Gallery
-{
+.Gallery{
   padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
 }
-.Gallery .photos img
-{
+.Gallery .photos img{
   width: 20%;
   padding:25px ;
   margin: 10px;
   border-radius: 10%;
   float: left;
 }
-.Gallery .photos2 img
-{
+.Gallery .photos2 img{
   width:20% ;
   padding:25px ;
   margin:10px ;
   border-radius: 10%; 
   float: left;
 }
-.Gallery .clear
-{
+.Gallery .clear{
   clear: both;
 }
 /*end Gallery section*/
