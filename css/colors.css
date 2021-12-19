@@ -17,11 +17,16 @@ header .lower .dropdown-menu li a:hover,
 header nav.lower,
 header .lower .dropdown-menu li a:hover,
 header .scroll-down,
-section.welcome .container .left{
+section.welcome .container .left,
+.counters{
     background-color: #f2b138;
 }
 header .lower .dropdown-menu:hover,
-header .lower .search{
+header .lower .search,
+header .lower .nav-link a:hover,
+header .lower .dropdown-button:hover,
+.pics,
+.counters .counter{
     background-color: #353d40;
 }
 header .lower .search .search-button{
@@ -31,17 +36,24 @@ header .lower .search .search-button{
 
 /* color */
 header .upper,
-header .middle .social-links li a{
+header .middle .social-links li a,
+header .lower .nav-link a,
+header .lower .dropdown-button{
     color: #353d40;
 }
 header .lower .dropdown-menu:hover > li a,
-header .lower .search .search-button{
+header .lower .search .search-button,
+header .lower .nav-link a:hover,
+header .lower .dropdown-button:hover,
+.pics,
+.counters .counter{
     color: #d9d9d9;
 }
 /* end color */
 
 /* border */
-header .scroll-down{
+header .scroll-down,
+.pics h2{
     border-color: #f2b138;
 }
 header .lower .dropdown-menu,
