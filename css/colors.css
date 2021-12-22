@@ -26,7 +26,8 @@ header .lower .search,
 header .lower .nav-link a:hover,
 header .lower .dropdown-button:hover,
 .pics,
-.counters .counter{
+.counters .counter,
+footer{
     background-color: #353d40;
 }
 header .lower .search .search-button{
@@ -46,9 +47,12 @@ header .lower .search .search-button,
 header .lower .nav-link a:hover,
 header .lower .dropdown-button:hover,
 .pics,
-.counters .counter{
+.counters .counter,
+footer,
+footer a{
     color: #d9d9d9;
 }
+
 /* end color */
 
 /* border */
