@@ -18,7 +18,9 @@ header nav.lower,
 header .lower .dropdown-menu li a:hover,
 header .scroll-down,
 section.welcome .container .left,
-.counters{
+.counters,
+header .middle .header-content .banner .login button,
+.gallery .photos{
     background-color: #f2b138;
 }
 header .lower .dropdown-menu:hover,
@@ -30,7 +32,12 @@ header .lower .dropdown-button:hover,
 footer{
     background-color: #353d40;
 }
-header .lower .search .search-button{
+header .middle .header-content .banner .login,
+.image-preview{
+    background-color: #353d40d1;
+}
+header .lower .search .search-button,
+.image-preview .collapse{
     background-color: transparent;
 }
 /* end background */
@@ -39,7 +46,8 @@ header .lower .search .search-button{
 header .upper,
 header .middle .social-links li a,
 header .lower .nav-link a,
-header .lower .dropdown-button{
+header .lower .dropdown-button,
+header .middle .header-content .banner .login button{
     color: #353d40;
 }
 header .lower .dropdown-menu:hover > li a,
@@ -49,19 +57,25 @@ header .lower .dropdown-button:hover,
 .pics,
 .counters .counter,
 footer,
-footer a{
+footer a,
+header .middle .header-content .banner .login,
+section.features .feature{
     color: #d9d9d9;
 }
-
+section.features .feature .content p i,
+.image-preview .collapse{
+    color: #f2b138;
+}
 /* end color */
 
 /* border */
 header .scroll-down,
-.pics h2{
-    border-color: #f2b138;
+.main-heading, section.features .feature .content h3{
+    border-color: #f2b138 !important;
 }
 header .lower .dropdown-menu,
-header .lower .search input[type=search]{
+header .lower .search input[type=search],
+header .middle .header-content .banner .login button{
     border-color: #d9d9d9;
 }
 /* end border */
