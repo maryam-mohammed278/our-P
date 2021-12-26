@@ -66,11 +66,11 @@ header .upper .upper-links {
   justify-content: space-between;
 }
 header .upper .upper-links a {
+  font-size: 22px;
   display: block;
   color: white;
-
-padding-right: 40px;
-  font-size: 30px;
+  padding-right: 40px;
+  /* font-size: 30px; */
 }
 header .middle {
   display: flex;
