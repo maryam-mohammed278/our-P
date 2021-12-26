@@ -15,6 +15,10 @@ let dropdownMenu = document.querySelectorAll(".dropdown .dropdown-menu");
 for (let i = 0; i < dropdownButton.length; i++) {
     dropdownButton[i].onclick = function (e) {
         e.preventDefault();
+        dropdownMenu.forEach(menu => {
+            menu.classList.remove("active");
+        });
+        dropdownMenu[i].classList.remove("active")
         this.parentElement.querySelector(".dropdown-menu").classList.toggle("active");
     }
 }
