@@ -1,4 +1,4 @@
-/* 
+    /* 
 #353d40 فيراني 
 #d9d9d9 رصاصي فاتح 
 #a1a5a6 رصاصي غامق 
@@ -20,7 +20,8 @@ header .scroll-down,
 section.welcome .container .left,
 .counters,
 header .middle .header-content .banner .login button,
-.gallery .photos{
+.gallery .photos,
+.cs .content h3.opened span{
     background-color: #f2b138;
 }
 header .lower .dropdown-menu:hover,
@@ -29,7 +30,8 @@ header .lower .nav-link a:hover,
 header .lower .dropdown-button:hover,
 .pics,
 .counters .counter,
-footer{
+footer,
+.cs .content h3.not-opened span{
     background-color: #353d40;
 }
 header .middle .header-content .banner .login,
@@ -70,12 +72,16 @@ section.features .feature .content p i,
 
 /* border */
 header .scroll-down,
-.main-heading, section.features .feature .content h3{
+.main-heading, section.features .feature .content h3,
+.cs .content h3.opened{
     border-color: #f2b138 !important;
 }
 header .lower .dropdown-menu,
 header .lower .search input[type=search],
 header .middle .header-content .banner .login button{
     border-color: #d9d9d9;
+}
+.cs .content h3.opened{
+    border-color: #353d40;
 }
 /* end border */

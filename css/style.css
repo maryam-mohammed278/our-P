@@ -484,3 +484,47 @@ footer{
 .footer ul li img{
   width: 24px;
 }
+
+/* ============ department page */
+/* CS Section */
+.departments .start{
+  order: 1;
+}
+.departments .end{
+  order: 2;
+}
+.cs .container{
+  display: flex;
+  justify-content: space-between;
+}
+.cs .image{
+  width: 30%;
+}
+.cs img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.cs .content{
+  width: 70%;
+  padding: 20px;
+}
+.cs .content h3{
+  font-size: 24px;
+  font-weight: bold;
+  border-left: 3px solid;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: start;
+}
+.cs .content h3 span{
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 10px 20px;
+  border-radius: 50%;
+  background-color: #f00;
+}
+.cs .content p{
+  padding: 0 25px;
+}
