@@ -172,7 +172,7 @@ header .lower .container{
   justify-content: space-between;
 }
 header .lower ul.nav{
-  width: 60%;
+  width: max-content;
   padding: 0;
   margin: 0;
   list-style: none;
