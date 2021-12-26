@@ -67,11 +67,10 @@ header .upper .upper-links {
 }
 header .upper .upper-links a {
   display: block;
-  background-color: black;
   color: white;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
+
+padding-right: 40px;
+  font-size: 30px;
 }
 header .middle {
   display: flex;
@@ -292,10 +291,10 @@ section.welcome .container .left:hover{
   opacity: 0.5;
 }
 section.welcome .container .left{
-  width: 30%;
+  width: 50%;
   text-align: center;
-  font-size: 13px;
-  padding: 30px;
+  font-size: 20px;
+  padding: 25px;
 }
 section.welcome .container .left i{
   font-size: 56px;
@@ -311,11 +310,12 @@ section.welcome .container .right{
 section.welcome .container .right h3{
 
   margin: 20px;
-  font-size: 25px;
+  font-size: 40px;
   text-align: left;
 }
 section.welcome .container .right p{
   text-align: left;
+  font-size: 20px;
 }
 /*end section*/
 
