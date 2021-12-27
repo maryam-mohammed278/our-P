@@ -21,7 +21,8 @@ section.welcome .container .left,
 .counters,
 header .middle .header-content .banner .login button,
 .gallery .photos,
-.cs .content h3.opened span{
+.cs .content h3.opened span,
+.is .content h3.opened span{
     background-color: #f2b138;
 }
 header .lower .dropdown-menu:hover,
@@ -73,7 +74,7 @@ section.features .feature .content p i,
 /* border */
 header .scroll-down,
 .main-heading, section.features .feature .content h3,
-.cs .content h3.opened{
+.cs .content h3.opened,.is .content h3.opened {
     border-color: #f2b138 !important;
 }
 header .lower .dropdown-menu,
