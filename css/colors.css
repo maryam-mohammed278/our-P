@@ -32,7 +32,7 @@ header .lower .dropdown-button:hover,
 .pics,
 .counters .counter,
 footer,
-.cs .content h3.not-opened span{
+.cs .content h3.not-opened span ,.it .content h3.not-opened span{
     background-color: #353d40;
 }
 header .middle .header-content .banner .login,

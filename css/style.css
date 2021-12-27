@@ -508,23 +508,24 @@ footer{
 .is .content{
   order: 2;
 }
-.cs .container,.is .container{
+
+.cs .container,.is .container,.it .container{
   display: flex;
   justify-content: space-between;
 }
-.cs .image ,.is .image{
+.cs .image ,.is .image,.it .image{
   width: 30%;
 }
-.cs img,.is img{
+.cs img,.is img,.bio img,.it img {
   display: block;
   width: 100%;
   height: auto;
 }
-.cs .content,.is .content{
+.cs .content,.is .content,.it .content{
   width: 70%;
   padding: 20px;
 }
-.cs .content h3,.is .content h3{
+.cs .content h3,.is .content h3,.it .content h3{
   font-size: 24px;
   font-weight: bold;
   border-left: 3px solid;
@@ -533,7 +534,7 @@ footer{
   justify-content: start;
 }
 
-.cs .content h3 span,.is .content h3 span{
+.cs .content h3 span,.is .content h3 span,.it .content h3 span{
   display: block;
   width: 10px;
   height: 10px;
@@ -541,7 +542,7 @@ footer{
   border-radius: 50%;
 
 }
-.cs .content p,.is .content p{
+.cs .content p,.is .content p,.it .content p{
   padding: 0 25px;
   font-size: 20px;
 }
