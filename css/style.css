@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: #d9d9d9;
   color: #353340;
+  font-family: Arial, Helvetica, sans-serif;
 }
 a {
   text-decoration: none;
@@ -496,6 +497,12 @@ footer{
 
 /* ============ department page */
 /* CS Section */
+.departments-heading{
+  margin-top: 70px;
+}
+.departments{
+  padding: 50px 0;
+}
 .departments  .start{
   order: 1;
 }
@@ -508,7 +515,6 @@ footer{
 .is .content{
   order: 2;
 }
-
 .cs .container,.is .container,.it .container{
   display: flex;
   justify-content: space-between;
@@ -533,17 +539,40 @@ footer{
   display: flex;
   justify-content: start;
 }
-
 .cs .content h3 span,.is .content h3 span,.it .content h3 span{
   display: block;
   width: 10px;
   height: 10px;
   margin: 10px 20px;
   border-radius: 50%;
-
 }
 .cs .content p,.is .content p,.it .content p{
   padding: 0 25px;
   font-size: 20px;
 }
+/* end departments */
 
+/* start activities */
+.activities-heading{
+  margin-top: 70px;
+}
+.activities .container{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.activities .activity{
+  text-align: center;
+  margin-top: 30px;
+  max-width: 33.333333%;
+}
+.activities .activity h3{
+  font-size: 13px;
+}
+.activities .activity p{
+  font-size: 12px;
+  padding: 0 20px;
+}
+/* end activities */
