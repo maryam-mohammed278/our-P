@@ -50,7 +50,7 @@ header .upper,
 header .middle .social-links li a,
 header .lower .nav-link a,
 header .lower .dropdown-button,
-header .middle .header-content .banner .login button{
+header .middle .header-content .banner .login button,.social-cultural .end p{
     color: #353d40;
 }
 header .lower .dropdown-menu:hover > li a,
@@ -62,11 +62,11 @@ header .lower .dropdown-button:hover,
 footer,
 footer a,
 header .middle .header-content .banner .login,
-section.features .feature{
+section.features .feature,.social-cultural .start p{
     color: #d9d9d9;
 }
 section.features .feature .content p i,
-.image-preview .collapse{
+.image-preview .collapse,.social-cultural .right .heading,.social-cultural .start .heading{
     color: #f2b138;
 }
 /* end color */
