@@ -66,7 +66,12 @@ section.features .feature,.social-cultural .start p{
     color: #d9d9d9;
 }
 section.features .feature .content p i,
+<<<<<<< HEAD
+.image-preview .collapse,
+.services .content dl dt{
+=======
 .image-preview .collapse,.social-cultural .right .heading,.social-cultural .start .heading{
+>>>>>>> 20326cb7692b0c9a169c3fcdb01a8f13e283f146
     color: #f2b138;
 }
 /* end color */
@@ -74,7 +79,8 @@ section.features .feature .content p i,
 /* border */
 header .scroll-down,
 .main-heading, section.features .feature .content h3,
-.cs .content h3.opened,.is .content h3.opened {
+.cs .content h3.opened,.is .content h3.opened,
+.services .content h3{
     border-color: #f2b138 !important;
 }
 header .lower .dropdown-menu,
