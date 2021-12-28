@@ -575,4 +575,61 @@ footer{
   font-size: 12px;
   padding: 0 20px;
 }
+/*section 3*/
+
+.sc_ar .container,.sc_ar .container .art
+{
+  display: flex;
+  justify-content: space-between;
+  
+}
+ .sc_ar .scouting, .sc_ar .art
+{
+  width:49%;
+  padding: 20px;
+}
+
+.sc_ar .scouting img 
+{
+  width: 100%;
+  height: auto;
+  padding-left: 10px;
+}
+.sc_ar .scouting .content
+{
+  padding-left: 30px;
+
+}
+.sc_ar .art
+{
+  align-items:center
+}
+.sc_ar .art .theater ,.sc_ar .art .music,.sc_ar .art .photography
+{
+   margin-top: 0%;
+  padding-left: 10px;
+  width: 33%;
+}
+
+.sc_ar .art .theater img ,.sc_ar .art .music img,.sc_ar .art .photography img
+{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+display: block;
+margin:  auto;
+}
+.sc_ar .art .theater .content,.sc_ar .art .music .content,.sc_ar .art .photography .content
+
+{
+  text-align: center;
+  border-left: 2px solid #353d40;
+  display: block;
+  padding: 30px 30px 0 ;
+}
+
+
+
+
+
 /* end activities */
