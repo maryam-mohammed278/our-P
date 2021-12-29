@@ -650,7 +650,6 @@ margin-left: 80px;
   font-size: 12px;
   padding: 0 20px;
 }
-<<<<<<< HEAD
 /* end activities */
 
 /* start services */
@@ -707,8 +706,6 @@ margin-left: 80px;
   padding: 5px 0;
 }
 /* end services */
-=======
-<<<<<<< HEAD
 /*section 3*/
 
 .sc_ar .container,.sc_ar .container .art
@@ -753,20 +750,12 @@ border-radius: 50%;
 display: block;
 margin:  auto;
 }
-.sc_ar .art .theater .content,.sc_ar .art .music .content,.sc_ar .art .photography .content
-
-{
+.sc_ar .art .theater .content,.sc_ar .art .music .content,.sc_ar .art .photography .content{
   text-align: center;
   border-left: 2px solid #353d40;
   display: block;
   padding: 30px 30px 0 ;
 }
-
-
-
-
-
-=======
 /*social-cultural*/
 .social-cultural{
   margin: 50px;
@@ -825,6 +814,4 @@ margin:  auto;
 .social-cultural .end p{
   margin-left: 20px;
 }
->>>>>>> 2151414d93addbd457bb9e684661b4d543453f45
 /* end activities */
->>>>>>> 20326cb7692b0c9a169c3fcdb01a8f13e283f146
