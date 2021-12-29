@@ -553,6 +553,79 @@ footer{
 /* end departments */
 
 /* start activities */
+/*science-sport*/
+.container
+{
+  display: flex;
+ justify-content: space-between;
+
+}
+.science
+{
+  background-color: white;
+  width: 49%;
+ 
+}
+.science h3 
+{
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.science h4
+{
+ margin-left: 200px;
+}
+.science h4 span img
+{
+  width: 30px;
+  height:30px;
+  border-radius: 50px;
+}
+.science h4 small
+{
+display: block;
+margin-left: 80px;
+}
+.science h5
+{
+  margin-left: 240px;
+}
+.science h5 small
+{
+  display: block;
+  margin-left:50px ;
+}
+.sport
+{ 
+  display:flex ;
+  background-color: white;
+  width: 49%;
+}
+.sport .left h3 
+{
+ margin-bottom: 20px;
+  margin-left: 20px;
+}
+.left img
+{
+  border-radius: 50px;
+  width: 160px;
+  height: 160px;
+  margin-top: 20px;
+  margin-left: 190px;
+}
+.sport .rghit h4
+{
+  display: block;
+  margin: 30px;
+  margin-top: 110px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.sport .right h4 ul
+{
+  margin-top: 10px;
+}
 .activities-heading{
   margin-top: 70px;
 }
