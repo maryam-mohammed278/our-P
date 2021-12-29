@@ -436,6 +436,10 @@ section.welcome .container .right p{
 footer{
   padding-top: 20px;
 }
+footer .container{
+  display: flex;
+  flex-direction: column;
+}
 .nav2{
   padding: 10px 0;
 }
@@ -554,19 +558,76 @@ footer{
 }
 /* end departments */
 
-/* start activities */
-/*science-sport*/
+/* =============== start activities page */
 .container
 {
   display: flex;
- justify-content: space-between;
-
+  justify-content: space-between;
 }
+.activity-box{
+  margin-bottom: 100px!important;
+}
+/*social-cultural*/
+.social-cultural .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.social-cultural .start{
+  background-image: url("../images/culture.png");
+  background-size: 100%;
+  width: 49%;
+  position: relative;
+}
+.social-cultural .start .overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+.social-cultural .start .heading-p{
+  z-index: 2;
+  position: absolute;
+}
+.social-cultural .start .heading{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.social-cultural .start p{
+  margin-left: 20px;
+}
+.social-cultural .end{ 
+  order: 1;
+  justify-self: center;
+  display: flex;
+  width: 49%;
+}
+.social-cultural .end .left{
+  width: 350px;
+  height: 200px;
+  background-image: url("../images/excellent\ labs.png");
+  background-size: 100%;
+}
+.social-cultural .end .right{
+  width: calc(100% - 350px);
+}
+.social-cultural .end .right .heading{
+  font-size: 36px;
+  margin: 20px 10px 20px 20px;
+  text-transform: uppercase;
+}
+.social-cultural .end p{
+  margin-left: 20px;
+}
+/*science-sport*/
 .science
 {
   background-color: white;
   width: 49%;
- 
 }
 .science h3 
 {
@@ -585,8 +646,8 @@ footer{
 }
 .science h4 small
 {
-display: block;
-margin-left: 80px;
+  display: block;
+  margin-left: 80px;
 }
 .science h5
 {
@@ -650,6 +711,51 @@ margin-left: 80px;
   font-size: 12px;
   padding: 0 20px;
 }
+/* scouting */
+.sc_ar .container,.sc_ar .container .art
+{
+  display: flex;
+  justify-content: space-between;
+}
+.sc_ar .scouting, .sc_ar .art
+{
+  width:49%;
+  padding: 20px;
+}
+.sc_ar .scouting img 
+{
+  width: 100%;
+  height: auto;
+  padding-left: 10px;
+}
+.sc_ar .scouting .content
+{
+  padding-left: 30px;
+}
+.sc_ar .art
+{
+  align-items:center
+}
+.sc_ar .art .theater ,.sc_ar .art .music,.sc_ar .art .photography
+{
+  margin-top: 0%;
+  padding-left: 10px;
+  width: 33%;
+}
+.sc_ar .art .theater img ,.sc_ar .art .music img,.sc_ar .art .photography img
+{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: block;
+  margin:  auto;
+}
+.sc_ar .art .theater .content,.sc_ar .art .music .content,.sc_ar .art .photography .content{
+  text-align: center;
+  border-left: 2px solid #353d40;
+  display: block;
+  padding: 30px 30px 0 ;
+}
 /* end activities */
 
 /* start services */
@@ -706,112 +812,3 @@ margin-left: 80px;
   padding: 5px 0;
 }
 /* end services */
-/*section 3*/
-
-.sc_ar .container,.sc_ar .container .art
-{
-  display: flex;
-  justify-content: space-between;
-  
-}
- .sc_ar .scouting, .sc_ar .art
-{
-  width:49%;
-  padding: 20px;
-}
-
-.sc_ar .scouting img 
-{
-  width: 100%;
-  height: auto;
-  padding-left: 10px;
-}
-.sc_ar .scouting .content
-{
-  padding-left: 30px;
-
-}
-.sc_ar .art
-{
-  align-items:center
-}
-.sc_ar .art .theater ,.sc_ar .art .music,.sc_ar .art .photography
-{
-   margin-top: 0%;
-  padding-left: 10px;
-  width: 33%;
-}
-
-.sc_ar .art .theater img ,.sc_ar .art .music img,.sc_ar .art .photography img
-{
-width: 80px;
-height: 80px;
-border-radius: 50%;
-display: block;
-margin:  auto;
-}
-.sc_ar .art .theater .content,.sc_ar .art .music .content,.sc_ar .art .photography .content{
-  text-align: center;
-  border-left: 2px solid #353d40;
-  display: block;
-  padding: 30px 30px 0 ;
-}
-/*social-cultural*/
-.social-cultural{
-  margin: 50px;
-}
-.social-cultural .container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 50px;
-}
-.social-cultural .start{
-  background-image: url("../images/culture.png");
-  background-size: 100%;
-  width: 49%;
-  position: relative;
-}
-.social-cultural .start .overlay{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
-}
-.social-cultural .start .heading-p{
-  z-index: 2;
-}
-.social-cultural .start .heading{
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 40px;
-}
-.social-cultural .start p{
-  margin-left: 20px;
-}
-.social-cultural .end{ 
-  order: 1;
-  justify-self: center;
-  display: flex;
-  width: 49%;
-}
-.social-cultural .end .left{
-  width: 350px;
-  height: 200px;
-  background-image: url("../images/excellent\ labs.png");
-  background-size: 100%;
-}
-.social-cultural .end .right{
-  width: calc(100% - 350px);
-}
-.social-cultural .end .right .heading{
-  font-size: 36px;
-  margin: 20px 10px 20px 20px;
-  text-transform: uppercase;
-}
-.social-cultural .end p{
-  margin-left: 20px;
-}
-/* end activities */
