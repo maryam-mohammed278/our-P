@@ -770,45 +770,101 @@ footer .container{
   display: flex;
   justify-content: space-between;
 }
-.services .images{
+.services section{
+  padding: 30px 0;
+}
+.services .student-affair .images{
   position: relative;
   width: 40%;
 }
-.services img{
+.services .student-affair img{
   position: absolute;
   width: 300px;
   height: 300px;
 }
-.services img:hover{
+.services .student-affair img:hover{
   opacity: 0;
 }
-.services img:nth-child(2){
+.services .student-affair img:nth-child(2){
   top: 70px;
   left: 100px;
 }
-.services img:nth-child(3){
+.services .student-affair img:nth-child(3){
   top: 130px;
   left: -70px;
 }
-.services .content{
+.services .student-affair .content{
   width: 60%;
 }
-.services .content h3{
+.services .student-affair .content h3{
   font-size: 22px;
   text-transform: uppercase;
   border-left: 3px solid;
   width: fit-content;
   padding: 10px 20px;
 }
-.services .content p{
+.services .student-affair .content p{
   padding: 10px;
   line-height: 25px;
 }
-.services .content dl dt{
+.services .student-affair .content dl dt{
   font-size: 18px;
   font-weight: bold;
 }
-.services .content dl dd{
+.services .student-affair .content dl dd{
   padding: 5px 0;
+}
+.services .faculty{
+  text-align: center;
+}
+.services .faculty .service{
+  text-align: center;
+}
+.services .faculty .service h3{
+  border-bottom: 2px solid;
+  width: fit-content;
+  margin: auto;
+  padding: 10px 50px;
+}
+.services .faculty .service h3 span,
+.services .faculty .service h3 small{
+  display: block;
+  font-size: 24px;
+}
+.services .faculty .service h3 small{
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: right;
+}
+.services .faculty .service p{
+  padding: 20px 100px;
+  line-height: 25px;
+}
+.services h2{
+  font-size: 28px;
+}
+.services .employees .container{
+  display: flex;
+  justify-content: space-between;
+}
+.services .employees .employee{
+  box-sizing: border-box;
+  width: 30%;
+  height: 450px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.services .employees .employee h3{
+  font-size: 28px;
+  border-left: 2px solid;
+  padding-left: 20px;
+  margin-left: -20px;
+}
+.services .employees .employee p{
+  line-height: 25px;
 }
 /* end services */
