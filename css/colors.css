@@ -22,7 +22,8 @@ section.welcome .container .left,
 header .middle .header-content .banner .login button,
 .gallery .photos,
 .cs .content h3.opened span,
-.is .content h3.opened span{
+.is .content h3.opened span,
+.administrations .admin .figure-container .caption{
     background-color: #f2b138;
 }
 header .lower .dropdown-menu:hover,
@@ -52,7 +53,8 @@ header .upper,
 header .middle .social-links li a,
 header .lower .nav-link a,
 header .lower .dropdown-button,
-header .middle .header-content .banner .login button,.social-cultural .end p{
+header .middle .header-content .banner .login button,.social-cultural .end p,
+.administrations .admin .figure-container .caption{
     color: #353d40;
 }
 header .lower .dropdown-menu:hover > li a,
@@ -84,7 +86,8 @@ header .scroll-down,
 .cs .content h3.opened,.is .content h3.opened,
 .services .content h3,
 .services .faculty .service h3,
-.services .employees .employee h3{
+.services .employees .employee h3,
+.administrations .admin .content h3{
     border-color: #f2b138 !important;
 }
 header .lower .dropdown-menu,
