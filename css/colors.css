@@ -74,7 +74,7 @@ section.features .feature .content p i,
 /* border */
 header .scroll-down,
 .main-heading, section.features .feature .content h3,
-.cs .content h3.opened,.is .content h3.opened {
+.cs .content h3.opened,.is .content h3.opened ,.services .content h3 {
     border-color: #f2b138 !important;
 }
 header .lower .dropdown-menu,
