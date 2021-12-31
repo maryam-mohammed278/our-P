@@ -711,7 +711,7 @@ footer .container{
   font-size: 12px;
   padding: 0 20px;
 }
-/* scouting */
+/* scouting _art */
 .sc_ar .container,.sc_ar .container .art
 {
   display: flex;
@@ -870,8 +870,10 @@ footer .container{
 /* end services */
 
 /* start administrations */
-.administrations .main-heading {
+.administrations .main-heading
+ {
   margin-top: 70px;
+  
 }
 .administrations .admin {
   display: flex;
@@ -917,3 +919,88 @@ footer .container{
   border-bottom-right-radius: 50px;
 }
 /* end administrations */
+/*start dean section*/
+.dean
+{
+  display: flex;
+ margin-top: 70px ;
+ margin-bottom: 90px;
+}
+.dean .container .content
+{
+  order: 3;
+  padding-left: 10px;
+  width: 60%;
+  
+}
+.dean .content .main-heading
+{
+  margin-left: -100px;
+}
+.dean .container .image
+{
+  order: 2;
+  width:15%
+}
+.dean .container .image img
+{
+  width: 300px;
+  height: 300px;
+  margin: 150px 200px 0 -170px;
+  border-radius: 50%;
+  
+}
+.dean .container .box_image
+{
+order: 1;
+width: 25%;
+}
+.dean .container .content h3 
+{
+  padding-left: 20px;
+  border-left:3px solid;
+  font-family: 'clicker script',cursive;
+  font-size: 20px;
+}
+
+.dean .container
+{
+  display: flex;
+  justify-content: space-between;
+}
+.dean .container .box_image .content
+{
+  display:block;
+  text-align: left;
+}
+.dean .container .box_image 
+{
+  display: block;
+  width: 30%;
+  height: 650px;
+  border:10px solid;
+  margin-top:70px;
+
+}
+.dean .container .box_image .content
+{
+  margin-top: 370px;
+  
+}
+
+.dean .box_image 
+{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.dean .container .box_image  img
+{
+  width: 250px;
+  height: 250px;
+  display: block;
+}
+/*end dean section*/
+
+
+
