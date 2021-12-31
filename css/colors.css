@@ -54,14 +54,12 @@ header .upper,
 header .middle .social-links li a,
 header .lower .nav-link a,
 header .lower .dropdown-button,
-<<<<<<< HEAD
 header .middle .header-content .banner .login button,.social-cultural .end p,
-.administrations .admin .figure-container .caption  {
-=======
+.administrations .admin .figure-container .caption,
 header .middle .header-content .banner .login button,
 .social-cultural .end p,
 .administrations .admin .figure-container .caption {
->>>>>>> 1f3f025c8757761f0ffc5dc355feb6caf3675756
+
     color: #353d40;
 }
 header .lower .dropdown-menu:hover > li a,
@@ -79,16 +77,14 @@ section.features .feature,
 .services .employees .employee {
     color: #d9d9d9;
 }
+
 section.features .feature .content p i,
 .image-preview .collapse,
 .services .content dl dt,
-<<<<<<< HEAD
 .image-preview .collapse,.social-cultural .right .heading,.social-cultural .start .heading,
-=======
 .image-preview .collapse,
 .social-cultural .right .heading,
 .social-cultural .start .heading,
->>>>>>> 1f3f025c8757761f0ffc5dc355feb6caf3675756
 .services .employees .employee h3 {
     color: #f2b138;
 }
@@ -105,11 +101,9 @@ section.features .feature .content h3,
 .services .content h3,
 .services .faculty .service h3,
 .services .employees .employee h3,
-<<<<<<< HEAD
-.administrations .admin .content h3 ,.dean .container .content h3 ,.dean .container .box_image  {
-=======
+.administrations .admin .content h3 ,
+.dean .container .content h3 ,.dean .container .box_image 
 .administrations .admin .content h3 {
->>>>>>> 1f3f025c8757761f0ffc5dc355feb6caf3675756
     border-color: #f2b138 !important;
 }
 header .lower .dropdown-menu,
