@@ -1,4 +1,4 @@
-    /* 
+/* 
 #353d40 فيراني 
 #d9d9d9 رصاصي فاتح 
 #a1a5a6 رصاصي غامق 
@@ -7,7 +7,7 @@
 */
 
 /* background */
-header .scroll-down{
+header .scroll-down {
     background-color: #d9d9d9;
 }
 header .upper,
@@ -23,7 +23,7 @@ header .middle .header-content .banner .login button,
 .gallery .photos,
 .cs .content h3.opened span,
 .is .content h3.opened span,
-.administrations .admin .figure-container .caption{
+.administrations .admin .figure-container .caption {
     background-color: #f2b138;
 }
 header .lower .dropdown-menu:hover,
@@ -33,17 +33,18 @@ header .lower .dropdown-button:hover,
 .pics,
 .counters .counter,
 footer,
-.cs .content h3.not-opened span ,.it .content h3.not-opened span,
-.services .employees .employee{
+.cs .content h3.not-opened span,
+.it .content h3.not-opened span,
+.services .employees .employee {
     background-color: #353d40;
 }
 header .middle .header-content .banner .login,
 .image-preview,
-.services .faculty{
+.services .faculty {
     background-color: #353d40d1;
 }
 header .lower .search .search-button,
-.image-preview .collapse{
+.image-preview .collapse {
     background-color: transparent;
 }
 /* end background */
@@ -53,8 +54,14 @@ header .upper,
 header .middle .social-links li a,
 header .lower .nav-link a,
 header .lower .dropdown-button,
+<<<<<<< HEAD
 header .middle .header-content .banner .login button,.social-cultural .end p,
 .administrations .admin .figure-container .caption  {
+=======
+header .middle .header-content .banner .login button,
+.social-cultural .end p,
+.administrations .admin .figure-container .caption {
+>>>>>>> 1f3f025c8757761f0ffc5dc355feb6caf3675756
     color: #353d40;
 }
 header .lower .dropdown-menu:hover > li a,
@@ -66,15 +73,22 @@ header .lower .dropdown-button:hover,
 footer,
 footer a,
 header .middle .header-content .banner .login,
-section.features .feature,.social-cultural .start p,
+section.features .feature,
+.social-cultural .start p,
 .services .faculty,
-.services .employees .employee{
+.services .employees .employee {
     color: #d9d9d9;
 }
 section.features .feature .content p i,
 .image-preview .collapse,
 .services .content dl dt,
+<<<<<<< HEAD
 .image-preview .collapse,.social-cultural .right .heading,.social-cultural .start .heading,
+=======
+.image-preview .collapse,
+.social-cultural .right .heading,
+.social-cultural .start .heading,
+>>>>>>> 1f3f025c8757761f0ffc5dc355feb6caf3675756
 .services .employees .employee h3 {
     color: #f2b138;
 }
@@ -82,20 +96,28 @@ section.features .feature .content p i,
 
 /* border */
 header .scroll-down,
-.main-heading, section.features .feature .content h3,
-.cs .content h3.opened,.is .content h3.opened,
+.main-heading,
+section.features .feature .content h3,
+.cs .content h3.opened,
+.is .content h3.opened,
+.services .content h3 .cs .content h3.opened,
+.is .content h3.opened,
 .services .content h3,
 .services .faculty .service h3,
 .services .employees .employee h3,
+<<<<<<< HEAD
 .administrations .admin .content h3 ,.dean .container .content h3 ,.dean .container .box_image  {
+=======
+.administrations .admin .content h3 {
+>>>>>>> 1f3f025c8757761f0ffc5dc355feb6caf3675756
     border-color: #f2b138 !important;
 }
 header .lower .dropdown-menu,
-header .lower .search input[type=search],
-header .middle .header-content .banner .login button{
+header .lower .search input[type="search"],
+header .middle .header-content .banner .login button {
     border-color: #d9d9d9;
 }
-.cs .content h3.opened{
+.cs .content h3.opened {
     border-color: #353d40;
 }
 /* end border */
