@@ -1,4 +1,7 @@
 /* globals */
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   background-color: #d9d9d9;
@@ -567,8 +570,6 @@ footer .container{
 .activity-box{
   margin-bottom: 100px!important;
 }
-
-
 .sc_ar .scouting img 
 {
   width: 100%;
@@ -915,6 +916,9 @@ footer .container{
 /* start administrations */
 .administrations .main-heading {
   margin-top: 70px;
+}
+.administrations .container {
+  display: block;
 }
 .administrations .admin {
   display: flex;
