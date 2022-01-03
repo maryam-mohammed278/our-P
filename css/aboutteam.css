@@ -1,0 +1,47 @@
+.our-team .container
+{
+   display:flex;
+   justify-content:space-between;
+   padding: 100px 0;
+}
+.member
+{
+   width: 21%;
+   padding: 30px;
+   margin: 20px;
+   background-color: #fff;
+   height: 100%;
+}
+.member .image
+{
+   border-radius: 50%;
+   width: 75;
+   overflow: hidden;
+   margin-bottom: 30px;
+}
+.member img
+{
+   width: 75%;
+   display: block;
+   margin: auto;
+}
+.member p{
+   text-align: center;
+   font-size: 16px;
+}
+.member ul{
+   list-style: none;
+   margin: auto;
+   padding: 0;
+   width: 75%;
+   font-size: 14px;
+}
+.member .achievements li{
+   padding: 10px 0;
+}
+.member .links{
+   display: flex;
+   justify-content: space-between;
+   width: 75%;
+   margin: 20px auto;
+}
